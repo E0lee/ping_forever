@@ -3,6 +3,7 @@
 
 
 [![](https://li10.app/wp-content/uploads/2025/07/fb-300x226.png)](https://li10.app/wp-content/uploads/2025/07/fb.png)
+
 總之就是在說某平台上募資的熱點穩流機，只是一片ＥＳＰ電路板在持續ping網站而已(他說的。
 
 ### 然後僅需 690元！！
@@ -13,15 +14,22 @@
 
 
 先搓兩顆按鈕...
+
 [![](https://li10.app/wp-content/uploads/2025/07/截圖-2025-07-04-下午5.45.15-300x168.png)](https://li10.app/wp-content/uploads/2025/07/截圖-2025-07-04-下午5.45.15.png)
+
 開啟背景服務...
+
 [![](https://li10.app/wp-content/uploads/2025/07/截圖-2025-07-04-下午5.45.59-300x170.png)](https://li10.app/wp-content/uploads/2025/07/截圖-2025-07-04-下午5.45.59.png)
+
 持續ping google.com
+
 [![](https://li10.app/wp-content/uploads/2025/07/截圖-2025-07-04-下午5.46.31-300x177.png)](https://li10.app/wp-content/uploads/2025/07/截圖-2025-07-04-下午5.46.31.png)
+
 ### 嗒噠！
 完成。
 
 demo一下...
+
 [![](https://li10.app/wp-content/uploads/2025/07/螢幕錄影-2025-07-04-下午6.20.10-2.gif)](https://li10.app/wp-content/uploads/2025/07/螢幕錄影-2025-07-04-下午6.20.10-2.gif)
 
 省下690...又過了美好的一天(誤)
