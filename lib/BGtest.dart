@@ -25,6 +25,7 @@ class BGtest {
         initialNotificationTitle: '熱點維穩服務開啟',
         initialNotificationContent: '請勿清除背景程式',
         foregroundServiceNotificationId: 12,
+        foregroundServiceTypes: [AndroidForegroundType.dataSync],
       ),
       iosConfiguration: IosConfiguration(
         autoStart: true,
@@ -99,6 +100,20 @@ Future<void> onStart(ServiceInstance service) async {
     print("Timer.periodic " + currentIp);
 
     final ping = Ping(currentIp, count: 1).stream.first;
+
+    // 更新前台通知
+    if (service is AndroidServiceInstance) {
+      service.setForegroundNotificationInfo(
+        title: "網路監控運行中",
+        content: "監控 $currentIp",
+      );
+
+      // 確認仍是前台服務
+      if (!await service.isForegroundService()) {
+        service.setAsForegroundService();
+        print("重新設定為前台服務");
+      }
+    }
 
     return;
     if ((service is AndroidServiceInstance &&

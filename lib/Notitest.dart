@@ -20,6 +20,8 @@ class Notitest {
                 AndroidFlutterLocalNotificationsPlugin
               >();
 
+      await Permission.ignoreBatteryOptimizations.request();
+
       final bool grantedNotificationPermission =
           await androidImplementation?.requestNotificationsPermission() ??
           false;
